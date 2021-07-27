@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            form{
+                margin:10px 50px 0px 50px;
+                box-shadow:1px 2px 3px black;
+                border:1px solid gold;
+            }
+            #greet{
+                
+            }
+            input{
+                width:100px;
+                height:50px;
+            }
+            h2{
+                text-align:center;
+                color:white;
+                text-shadow:black 1px 2px 3px;
+                font-family:cursive;
+                font-size:40px;
+                
+            }
+            .my{
+            background-color:#dfedff;
+            width:200px;
+            height:200px;
+            margin:100px 100px 0px 70px;
+            padding-top:10px;
+            box-shadow:2px 1px 3px white;
+            border:solid white 1px;
+            }
+        </style>
         <meta name="viewport" content="width=device-width , initial-scale=1.0" />
-        <title>title here...</title>
+        <title>All pages</title>
     </head>
     <body style="background-color:#dfe0f0;">
-        <form align="center"  style="margin:center;" action="greet.html" >
-		<input type="submit" value="عيد مبارك" />
-	</form>
-	<form align="center" style="margin:center;" action="main.html">
-		<input align="center" type="submit" value="main" />
-	</form>
+        <h2>My pages</h2>
+        <div class="my">
+        <form id="greet" action="greet.html" >
+                <input type="submit" value="عيد مبارك" />
+        </form>
+        <form action="main.html">
+                <input  type="submit" value="main" />
+        </form>
+        <form action="counter.html">
+            <input type="submit" value="click counter"/>
+        </form>
+        </div>
     </body>
 </html>

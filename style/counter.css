@@ -1,0 +1,39 @@
+body {
+    background-color:#123;
+}
+p{
+    color:rgba(255,0,0,1);
+    text-align:center;
+    background-color:#abe ;
+    text-shadow:black 1px 2px 3px;
+    font-size:40px;
+    font-family:cursive;
+    padding:10px 0px 10px 0px;
+    margin:100px 100px 100px 100px;
+    box-shadow:red 1px 2px 3px;
+    
+}
+h1{
+    color:#abc;
+    text-align:center;
+    text-shadow:1px 2px 3px black;
+    text-decoration:underline overline ;
+} 
+#evenOrOdd{
+    color:#fbc;
+    font-size:25px;
+    margin:0px 25px 0px 25px;
+    text-shadow:black 1px 2px 3px;
+    background-color:#ccc;
+    font-family:serif;
+    box-shadow:#03f 1px 2px 3px;
+}
+b{color:red;
+text-decoration:underline black;}
+h3{
+    text-shadow:white 1px 2px 3px;
+    box-shadow:white 1px 2px 3px;
+    margin:50px 100px 0px 100px;
+    background-color:#242;
+    text-align:center;
+}
