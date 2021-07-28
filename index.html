@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <style>
             form{
                 margin:10px 50px 0px 50px;
-                box-shadow:1px 2px 3px black;
-               
             }
             #greet{
                 
             }
             input{
-        	background-color:#e7dbd0;
-	        width:100px;
+                width:100px;
                 height:50px;
-		border:solid gold 1px;
-                font-size:15px;
+                border:solid gold 1px;
+                border-radius:20px;
+                font-size:14px;
                 font-family:serif;
+                background-color:#defeff;
                 text-shadow:1px 2px 3px #dfefff;
             }
             h2{
                 text-align:center;
                 color:white;
+                border:solid 2px lightblue;
+                background-color:white;
+                border-radius:10px;
                 text-shadow:black 1px 2px 3px;
                 font-family:cursive;
+                padding-bottom:6px;
                 font-size:40px;
+                box-shadow:0px 0px 6px grey;
                 
             }
             .my{
             background-color:#dfedff;
             width:200px;
-            height:200px;
-            margin:100px 19% 0px 19%;
+            height:250px;
+            margin:100px 130px 0px 70px;
             padding-top:10px;
-            box-shadow:2px 1px 3px white;
+            box-shadow:2px 1px 6px white;
             border:solid white 1px;
-            }
+            border-radius:30px;
+              }
         </style>
         <meta name="viewport" content="width=device-width , initial-scale=1.0" />
         <title>All pages</title>
     </head>
     <body style="background-color:#dfe0f0;">
         <h2>My pages</h2>
+        
         <div class="my">
         <form id="greet" action="greet.html" >
                 <input type="submit" value="عيد مبارك" />
@@ -53,6 +59,10 @@
         <form action="counter.html">
             <input type="submit" value="click counter"/>
         </form>
+        <form action="home.html">
+            <input type="submit" value="Werz page"/>
+        </form>
         </div>
+        
     </body>
 </html>

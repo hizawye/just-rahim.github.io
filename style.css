@@ -1,0 +1,96 @@
+html, body {
+    width: 99%;
+    height:99%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg,#262930, #202329, #121418, #000000);
+      background-size: 399% 399%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.rahim {
+
+    font-family: 'Audiowide', cursive;
+    
+    color: #FE5872;
+    font-size: 420%;
+    margin-top: 0.05cm;
+
+}
+
+.darkmodepic {
+    margin: auto;
+    display: block
+    
+
+}
+
+.homeimg {
+    
+    border-radius: 35px;
+    margin: auto;
+    display: block
+    
+}
+
+.centerp
+{
+    font-family: 'Do Hyeon', sans-serif;    
+    color: #747F87;
+    margin-top: -1cm;
+    font-size: 25PX;
+
+}
+
+.instapanel  {
+  
+    
+    margin: auto;
+    display: block
+    
+
+
+
+
+ }
+
+.twitterpanel1{
+    margin: auto;
+    display: block
+}
+
+
+
+
+.copyright {
+    color: #545B68;
+
+    hyphens: manual;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0;
+    font-weight: 600;
+    text-rendering: optimizeSpeed;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #545B68;
+    font-family: "Poppins", Sans-serif;
+    font-size: 9px;
+    text-transform: capitalize;
+    line-height: 2.2em;
+     }
+
+
