@@ -8,7 +8,7 @@
     position:sticky;top:28px;
 }
 input{
-    width:300px;
+    width:350px;
     height:30px;
     
 }
@@ -62,7 +62,7 @@ footer{
     text-align:center;
     padding:3px;
     background-color:#eee;
-    width:100%;
+    width:350px;
     position:absolute ;left:0px;
     font-size:14px;
 }
