@@ -8,7 +8,7 @@
     position:sticky;top:28px;
 }
 input{
-    width:350px;
+    width:300px;
     height:30px;
     
 }
@@ -49,7 +49,7 @@ sup{
     }
 #login_btn{
     height:35px;
-    width:300px;
+    width:280px;
     font-weight:bold;
     color:white;
     display:block ;
