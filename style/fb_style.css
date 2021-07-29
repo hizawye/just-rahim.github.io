@@ -49,6 +49,7 @@ sup{
     }
 #login_btn{
     height:35px;
+    width:300px;
     font-weight:bold;
     color:white;
     display:block ;
@@ -65,4 +66,7 @@ footer{
     width:350px;
     position:absolute ;left:0px;
     font-size:14px;
+}
+#page{
+    margin:auto;
 }
