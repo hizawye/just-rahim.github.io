@@ -44,7 +44,7 @@ button{
     background-color:#c6d1b5;
     box-shadow:0 0 2px white;
     font-weight:600;
-    min-width:200px;
+    max-width:200px;
 }
 footer{
     padding:10px 0;
