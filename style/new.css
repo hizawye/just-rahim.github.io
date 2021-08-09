@@ -11,13 +11,13 @@ header{
     text-align:center;
 }
 h1{
-   /* text-shadow:1px 1px 1px yellow;*/
-    background-color:#bd3376;
+    background-color:#cce3dd;
     display:inline-block ;
     border-radius:20px;
     padding:5px 20px;
     box-shadow:0px 0px 5px white;
     font-family:serif;
+    color:#007aa2;
 }
 .container{
     margin:0 auto;
