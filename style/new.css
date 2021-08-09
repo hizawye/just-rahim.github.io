@@ -44,6 +44,7 @@ button{
     background-color:#c6d1b5;
     box-shadow:0 0 2px white;
     font-weight:600;
+    min-width:200px;
 }
 footer{
     padding:10px 0;
@@ -57,6 +58,7 @@ footer{
     .page-sec-row{display:block ;}
     button{
         width:60%;
+        min-width:60%;
     }
     h1{
         padding:0;
