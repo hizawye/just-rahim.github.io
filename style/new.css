@@ -4,7 +4,7 @@ body {
 header{
     color:white;
     padding:60px 0;
-    background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/f7/Fahrzeug_schema_xml.png);
+    background-image:brown;
     
 }
 .bx-sh ,.pages{
@@ -29,7 +29,7 @@ h1{
 .pages{
     padding:80px 0;
     text-align:center; 
-    background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/f4/Zen_Of_Python.png);
+    background-image:#006aa1;
     margin-top:4px;
 }
 .page-fir-row{
