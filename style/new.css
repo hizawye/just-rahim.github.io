@@ -30,7 +30,7 @@ h1{
     padding:80px 0;
     text-align:center; 
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/f4/Zen_Of_Python.png);
-    margin-top:2px;
+    margin-top:4px;
 }
 .page-fir-row{
     display:inline-block ;
@@ -56,7 +56,7 @@ footer{
     background-color:#017f97;
     font-size:14px;
     color:#ffffff;
-    margin-top:2px;
+    margin-top:4px;
 }
 @media screen and (max-width:480px){
     .page-fir-row{display:block;}
