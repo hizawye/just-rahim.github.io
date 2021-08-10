@@ -5,7 +5,7 @@ header{
     color:white;
     padding:60px 0;
     background-color:#f0f0cb;
-    
+    text-align:center;    
 }
 .bx-sh ,.pages{
     border-radius:2px;
@@ -15,7 +15,7 @@ h1{
     background-color:#cce3dd;
     display:inline-block ;
     border-radius:10px;
-    padding:5px 20px;
+    padding:8px 40px;
     box-shadow:0px 0px 5px white;
     font-family:serif;
     color:#007aa2;
@@ -35,11 +35,11 @@ h1{
 }
 .page-fir-row{
     display:inline-block ;
-    padding:20px 20px;
+    padding:10px 10px;
 }
 .page-sec-row{
     display:inline-block  ;
-    padding:20px 20px;
+    padding:10px 10px;
 }
 button{
     padding:10px;
@@ -47,7 +47,7 @@ button{
     border:none;
     background-color:#c6d1b5;
     box-shadow:0px 0px 10px white;
-    font-weight:1000;
+    font-weight:3000;
     min-width:300px;
     color:#007aa2;
 }
@@ -63,8 +63,10 @@ footer{
     .page-fir-row{display:block;}
     .page-sec-row{display:block ;}
     button{
-        width:60%;
+        width:59%;
         max-width:60%;
+	min-width:50%;
+	font-size:1000;
     }
     h1{
         padding:5px;
