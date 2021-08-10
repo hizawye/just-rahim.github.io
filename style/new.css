@@ -4,7 +4,7 @@ body {
 header{
     background-color:#00a1b8;
     color:white;
-    padding:20px 0;
+    padding:60px 0;
 }
 .bx-sh ,.pages{
     border-radius:2px;
@@ -25,7 +25,7 @@ h1{
     max-width:900px;
 }
 .pages{
-    padding:50px 0;
+    padding:80px 0;
     text-align:center;
     background-color:#8dccd3;
 }
@@ -47,7 +47,7 @@ button{
     min-width:200px;
 }
 footer{
-    padding:10px 0;
+    padding:30px 0;
     text-align:center;
     background-color:#017f97;
     font-size:14px;
