@@ -1,10 +1,11 @@
 body {
-    
+    background-color:#33558c;
 }
 header{
-    background-color:#00a1b8;
     color:white;
     padding:60px 0;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/f7/Fahrzeug_schema_xml.png);
+    
 }
 .bx-sh ,.pages{
     border-radius:2px;
@@ -13,11 +14,12 @@ header{
 h1{
     background-color:#cce3dd;
     display:inline-block ;
-    border-radius:20px;
+    border-radius:10px;
     padding:5px 20px;
     box-shadow:0px 0px 5px white;
     font-family:serif;
     color:#007aa2;
+    
 }
 .container{
     margin:0 auto;
@@ -26,8 +28,8 @@ h1{
 }
 .pages{
     padding:80px 0;
-    text-align:center;
-    background-color:#8dccd3;
+    text-align:center; background-image:url(https://upload.wikimedia.org/wikipedia/commons/f/f4/Zen_Of_Python.png);
+    margin-top:2px;
 }
 .page-fir-row{
     display:inline-block ;
@@ -39,12 +41,13 @@ h1{
 }
 button{
     padding:10px;
-    border-radius:5px;
+    border-radius:10px;
     border:none;
     background-color:#c6d1b5;
-    box-shadow:0 0 2px white;
-    font-weight:600;
+    box-shadow:0px 0px 10px white;
+    font-weight:1000;
     min-width:200px;
+    color:#007aa2;
 }
 footer{
     padding:30px 0;
@@ -52,15 +55,24 @@ footer{
     background-color:#017f97;
     font-size:14px;
     color:#ffffff;
+    margin-top:2px;
 }
 @media screen and (max-width:480px){
     .page-fir-row{display:block;}
     .page-sec-row{display:block ;}
     button{
         width:60%;
+        min-width:60%;
     }
     h1{
-        padding:0;
+        padding:5px;
         width:100%;
+    }
+    .pages{
+        background-size:auto 100%;
+    }
+    header{
+        background-size:auto 100%;
+        background-repeat:no-repeat ;
     }
 }
