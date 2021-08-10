@@ -1,10 +1,10 @@
 body {
-    background-color:#33558c;
+    background-color:#feffe2;
 }
 header{
     color:white;
     padding:60px 0;
-    background-color:brown;
+    background-color:#f0f0cb;
     
 }
 .bx-sh ,.pages{
@@ -19,6 +19,7 @@ h1{
     box-shadow:0px 0px 5px white;
     font-family:serif;
     color:#007aa2;
+    font-size:48px;
     
 }
 .container{
@@ -29,7 +30,7 @@ h1{
 .pages{
     padding:80px 0;
     text-align:center; 
-    background-color:#006aa1;
+    background-color:#feffe2;
     margin-top:4px;
 }
 .page-fir-row{
@@ -47,13 +48,13 @@ button{
     background-color:#c6d1b5;
     box-shadow:0px 0px 10px white;
     font-weight:1000;
-    min-width:200px;
+    min-width:300px;
     color:#007aa2;
 }
 footer{
     padding:30px 0;
     text-align:center;
-    background-color:#017f97;
+    background-color:#c3ba85;
     font-size:14px;
     color:#ffffff;
     margin-top:4px;
@@ -63,11 +64,12 @@ footer{
     .page-sec-row{display:block ;}
     button{
         width:60%;
-        min-width:60%;
+        max-width:60%;
     }
     h1{
         padding:5px;
         width:100%;
+        font-size:22px;
     }
     .pages{
         background-size:auto 100%;
